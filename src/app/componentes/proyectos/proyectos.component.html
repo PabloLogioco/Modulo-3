@@ -1,0 +1,20 @@
+<div class="alert alert-danger mx-4" id="tituloseccion3" role="alert"> <!-- titulo proyectos -->
+    <h6 id="titulo_proy">Proyectos</h6>
+</div>
+<div class="container"> <!-- tabla proyectos -->
+    <table class="table table-dark table-striped"> <!-- tabla "proyectos" -->
+        <thead> <!-- encabezado de tabla -->
+            <tr>
+                <th>Año</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody id="datos_proyectos">
+            <tr *ngFor="let item of listaProyectos"> <!-- datos venen del json -->
+                <td>{{item.anio}}</td>
+                <td>{{item.descripcion}}</td>
+                <button class="btn btn-outline-primary btn-sm" style=display:none id="editProy">Edit</button>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,23 @@
+<div class="alert alert-warning mx-4" id="tituloseccion2" role="alert"> <!-- titulo estudios -->
+    <h6 id="titulo_est">Estudios</h6>
+</div>
+<div class="container"> <!-- tabla estudios -->
+    <table class="table table-dark table-striped"> <!-- tabla "estudios" -->
+        <thead> <!-- encabezado de tabla -->
+            <tr>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody id="datos_estudios">
+            <tr *ngFor="let item of listaEstudios"> <!-- datos venen del json -->
+                <td>{{item.anio}}</td>
+                <td>{{item.institucion}}</td>
+                <td>{{item.descripcion}}</td>
+                <button class="btn btn-outline-primary btn-sm" style=display:none id="editEst">Edit</button>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

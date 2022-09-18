@@ -1,0 +1,17 @@
+.nombretitular{
+    text-align: left;
+    color: rgb(252, 6, 6);
+}
+
+#fotoydatos{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@keyframes movimiento{ /* desplazamiento del fondo */
+    from{
+        background-position: bottom;
+    }to{
+        background-position: top;
+    }
+}

@@ -1,0 +1,44 @@
+{ 
+    "nombre": "Juan Pablo Logioco", 
+    "titulo": "Futuro Programador Full Stack Developer Jr..",
+    "experiencia": [{
+        "desde": "1998",
+        "hasta": "2015",
+        "empresa": "Morvillo",
+        "descripcion": "Mantenimiento electrónica gráfica - Automatizaciones con PLC"
+    },
+    {
+        "desde": "1992",
+        "hasta": "2018",
+        "empresa": "Komafisa",
+        "descripcion": "Automatización de guillotinas CNC - Microcontroladores, C y ASM"
+    }],
+    "estudios": [{
+        "anio": "2022",
+        "institucion": "Argentina Programa",
+        "descripcion": "#YoProgramo - Full Stack Developer Jr."
+    },
+    {
+        "anio": "2022",
+        "institucion": "Egg Cooperation",
+        "descripcion": "Programcion desde cero - Aprendizaje en cooperación - Fundamentos, Lógica algorítmica, lógica matemática"
+    },
+    {
+        "anio": "2021",
+        "institucion": "Argentina Programa",
+        "descripcion": "#SeProgramar - Fundamentos, Programación imperativa, Programación con Objetos"
+    },
+    {
+        "anio": "1994",
+        "institucion": "Fundación Tecnológica Argentina",
+        "descripcion": "Programación en C"
+    }],
+    "proyectos": [{
+        "anio": "2021",
+        "descripcion": "App. Edición de tarjetas para máquinas de tejido - QT Creator - C++"
+    },
+    {
+        "anio": "2002",
+        "descripcion": "Gloria 1 - Programador CNC para guillotinas - PIC18F422 - lenguaje C y ASM"
+    }] 
+}
