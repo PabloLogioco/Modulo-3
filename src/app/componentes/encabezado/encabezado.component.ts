@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AppComponent } from 'src/app/app.component';
+// import { AppComponent } from 'src/app/app.component';
 
 @Component({
   selector: 'app-encabezado',
@@ -15,7 +15,7 @@ export class EncabezadoComponent implements OnInit {
   cambioSegundos: boolean = true;
   BKSegundos: number = -1; // memoriza segundo actual 
   edicionHabilitada: boolean = false;
-
+  
   constructor() { 
   }
 
